@@ -1,0 +1,71 @@
+@media screen and (min-width: 1921px) {
+    .index_main_message1{
+    font-size: 200px;
+    }
+    .index_main_message2{
+        font-size: 300px;
+    }
+    .index_main_message3{
+        font-size: 200px;
+    }
+}
+
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .index_main_message1{
+        font-size: 400px;
+    }
+    .index_main_message2{
+            font-size: 200px;
+    }
+    .index_main_message3{
+            font-size: 200px;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+    .index_main_message1{
+        font-size: 400px;
+    }
+    .index_main_message2{
+            font-size: 200px;
+    }
+    .index_main_message3{
+            font-size: 200px;
+    }
+    .nav_text{
+        font-size: 100px;
+    }
+}
+
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+    .index_main_message1{
+        font-size: 50px;
+        }
+    .index_main_message2{
+            font-size: 50px;
+    }
+    .index_main_message3{
+            font-size: 50px;
+    }
+    .nav_text{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .index_main_message1{
+        font-size: 20px;
+        }
+    .index_main_message2{
+            font-size: 20px;
+    }
+    .index_main_message3{
+            font-size: 20px;
+    }
+    .nav_text{
+        font-size:20px;
+    }
+}

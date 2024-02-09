@@ -1,0 +1,107 @@
+body {background-color: rgb(255, 255, 255);}
+
+.index_main_message1 {color: rgba(166, 72, 5, 0.802); font-size: 500%; transition: 1.5s; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;}
+
+.index_main_message_box1 {display: flex; justify-content: center; margin-top: 2%;}
+
+.index_main_message2_box {display: flex; justify-content: center; margin-top: -5%;}
+
+.index_main_message2 {color: rgba(166, 72, 5, 0.802); font-size: 500%; transition: 1.5s; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;}
+
+.index_main_message3 {display: flex; justify-content: center; color: rgba(166, 72, 5, 0.802); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif; font-size: 200%; transition: 1.5s; width: 35%; padding-left: 32.5%; margin-top: 1%; text-align: center;}
+
+.image1_box {display: flex; justify-content: center; width: 100%;}
+
+.image1 {display: flex; justify-content: center; width: 40%; border-radius: 20px; transition: 2s; margin-top: -1%;}
+
+.image1:hover {display: flex; justify-content: center; width: 40%; border-radius: 25%; transition: 2s;}
+
+.index_main_message1, .index_main_message2 {animation: main_message_animation 5s linear infinite;}
+@keyframes main_message_animation {
+    0% {color: rgba(166, 72, 5, 0.802)}
+    50% {color:rgb(105, 164, 110)}
+    100% {color: rgba(166, 72, 5, 0.802)}}
+
+.nav_tab, .nav_text  {display:flex; justify-content: center; color: rgba(166, 72, 5, 0.802); font-size: 200%; gap: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;}
+
+.nav_text {text-decoration: none; transition: 1.5s; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;}
+
+.nav_text:hover {transform: scale(1.15); transition: 1.5s;}
+
+nav {display: flex; justify-content: center;}
+
+.ds {color: rgba(166, 72, 5, 0.802); font-size: 200%; text-decoration: none; transition: 1.5s; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;}
+
+.ds:hover {font-size: 220%; transition: 1.5s;}
+
+.ds_box {margin-top: 3%; display: flex; justify-content: center;}
+
+.uniswap {color: rgba(166, 72, 5, 0.802); font-size: 200%; text-decoration: none; transition: 1.5s; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;}
+
+.uniswap:hover {font-size: 220%; transition: 1.5s;}
+
+.uniswap_box {margin-top: 1%; display: flex; justify-content: center;}
+
+.twitter {color: rgba(166, 72, 5, 0.802); font-size: 200%; text-decoration: none; transition: 1.5s; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;}
+
+.twitter:hover {font-size: 220%; transition: 1.5s;}
+
+.twitter_box {margin-top: -2%; display: flex; justify-content: center;}
+
+.socials_message_box {margin-top: -1%; display: flex; justify-content: center; color: rgba(166, 72, 5, 0.802); font-size: 250%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;}
+
+.telegram_box {margin-top: 1%; display: flex; justify-content: center; margin-bottom: 2%;}
+
+.telegram {color: rgba(166, 72, 5, 0.802); font-size: 30px; text-decoration: none; transition: 1.5s; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;}
+
+.telegram:hover {font-size: 35px; transition: 1.5s;}
+
+.image2_box {display: flex; justify-content: center; width: 100%; margin-top: 3%;}
+
+.image2 {display: flex; justify-content: center; width: 40%; border-radius: 30px; transition: 1.2s; height: 600px;}
+
+.image2:hover {border-radius: 60px; transition: 1.2s;}
+
+.tokenomics_message_box {margin-top: 1%; display: flex; justify-content: center; color: rgba(166, 72, 5, 0.802); font-size: 40px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;}
+
+.supply_text {color: rgba(166, 72, 5, 0.802); font-size: 200%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;}
+
+.supply_text_box {display: flex; justify-content: center; margin-top: -3%;}
+
+.liquidity_text {color: rgba(166, 72, 5, 0.802); font-size: 200%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;}
+
+.liquidty_text_box {display: flex; justify-content: center; margin-top: -3%;}
+
+.contract_text {color: rgba(166, 72, 5, 0.802); font-size: 200%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;}
+
+.contract_text_box {display: flex; justify-content: center; margin-top: -5%;}
+
+.team_allocation_text {color: rgba(166, 72, 5, 0.802); font-size: 200%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;}
+
+.team_allocation_box {display: flex; justify-content: center; margin-top: -3%;}
+
+.image3 {display: flex; justify-content: center; width: 40%; border-radius: 30px; transition: 1.2s; height: 600px;}
+
+.image3_box {display: flex; justify-content: center; width: 100%; margin-top: 3%;}
+
+.image3:hover {border-radius: 60px; transition: 1.2s;}
+
+.slider {height: 10%; width: 40%; display: flex; justify-content: center; margin-left: 30%;}
+
+.slider_image {display: none; width: 100%;}
+
+.show {display: block;}
+
+.slider_image1 {width: 100%; border-radius: 50px;}
+
+.slider_image2 {width: 100%; border-radius: 50px;}
+
+.slider_image3 {width: 100%; border-radius: 50px;}
+
+.button_box {display: flex; justify-content: center; gap: 1%; margin-top: 0.5%;}
+
+button {color: rgba(166, 72, 5, 0.802); width: 200px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;}
+
+.previous_button {font-size: 200%;}
+
+.next_button {font-size: 200%;}
